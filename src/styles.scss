@@ -1,0 +1,29 @@
+@import '~jspreadsheet-ce/dist/jspreadsheet.css';
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.jexcel > thead > tr > td {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.jexcel > tbody > tr > td {
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.jexcel > tbody > tr:nth-child(even) > td {
+  background-color: #f9f9f9;
+}
+
+.jexcel > tbody > tr:hover > td {
+  background-color: #e6e6e6;
+}
